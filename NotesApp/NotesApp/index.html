@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom CSS for styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Notes App</title>
+</head>
+
+<body>
+
+    <!-- div tag to wrap everything inside it -->
+    <div class="main">
+
+        <!-- h1 for heading -->
+        <h1 class="heading">To do list</h1>
+
+        <!-- input tag for inputting the task -->
+        <input type="text" name="task-input" id="task-input" placeholder="Add new task">
+
+        <!-- add task button to add the task to the unordered list -->
+        <button class="button" onclick="addTask()">Add Task</button>
+
+        <!-- unordered list -->
+        <ul class="ul-list">
+        </ul>
+    </div>
+
+
+    <!-- Custom JavaScript for functionality -->
+    <script src="script.js"></script>
+</body>
+
+</html>
